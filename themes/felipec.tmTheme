@@ -63,7 +63,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#D991D2</string>
+					<string>#ECC0E8</string>
 				</dict>
 			</dict>
 			<dict>
@@ -108,8 +108,6 @@
 				<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
 					<key>foreground</key>
 					<string>#C4DA7D</string>
 				</dict>
@@ -181,7 +179,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#D991D2</string>
+					<string>#ECC0E8</string>
 				</dict>
 			</dict>
 			<dict>

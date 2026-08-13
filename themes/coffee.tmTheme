@@ -160,13 +160,26 @@
 				<key>name</key>
 				<string>markup-heading-bold-changed-diff</string>
 				<key>scope</key>
-				<string>markup.heading, markup.bold, markup.changed, markup.inserted.diff, markup.deleted.diff</string>
+				<string>markup.heading, markup.changed, markup.inserted.diff, markup.deleted.diff</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
 					<string>bold</string>
 					<key>foreground</key>
 					<string>#000000</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Bold</string>
+				<key>scope</key>
+				<string>markup.bold</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#E8E8D3</string>
 				</dict>
 			</dict>
 			<dict>

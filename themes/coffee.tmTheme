@@ -3,13 +3,13 @@
 <plist version="1.0">
 	<dict>
 		<key>comment</key>
-		<string>http://chriskempson.com</string>
+		<string>Coffee converted from coffee</string>
 		<key>name</key>
-		<string>Tomorrow-Night</string>
+		<string>Coffee</string>
 		<key>author</key>
-		<string>Unknown</string>
+		<string>nvim-colors</string>
 		<key>semanticClass</key>
-		<string>theme.dark.tomorrow-night</string>
+		<string>theme.dark.coffee</string>
 		<key>colorSpace</key>
 		<string>sRGB</string>
 		<key>settings</key>
@@ -18,17 +18,17 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#1D1F21</string>
+					<string>#151515</string>
 					<key>caret</key>
-					<string>#AEAFAD</string>
+					<string>#E8E8D3</string>
 					<key>foreground</key>
-					<string>#C5C8C6</string>
+					<string>#E8E8D3</string>
 					<key>invisibles</key>
-					<string>#4B4E55</string>
+					<string>#61616D</string>
 					<key>lineHighlight</key>
-					<string>#282A2E</string>
+					<string>#222222</string>
 					<key>selection</key>
-					<string>#373B41</string>
+					<string>#444444</string>
 				</dict>
 			</dict>
 			<dict>
@@ -38,45 +38,43 @@
 				<string>comment</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
 					<key>foreground</key>
-					<string>#969896</string>
+					<string>#888888</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>foreground-operator</string>
+				<string>operator</string>
 				<key>scope</key>
 				<string>keyword.operator.class, keyword.operator, constant.other, source.php.embedded.line</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#CED1CF</string>
+					<string>#FFFA96</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>variable-string-link-regular-expression-tag-name</string>
+				<string>variable-string-link-regex-tag</string>
 				<key>scope</key>
 				<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#CC6666</string>
+					<string>#C6B6EE</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>number-constant-function-argument-tag-attribute-embedded</string>
+				<string>number-constant-function-argument</string>
 				<key>scope</key>
 				<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#DE935F</string>
+					<string>#CF6A4C</string>
 				</dict>
 			</dict>
 			<dict>
@@ -86,36 +84,30 @@
 				<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#F0C674</string>
+					<string>#C6FEEB</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>string-symbols-inherited-class-markup-heading</string>
+				<string>string-symbol-heading</string>
 				<key>scope</key>
 				<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#B5BD68</string>
+					<string>#99AD6A</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>function-special-method-block-level</string>
+				<string>function</string>
 				<key>scope</key>
 				<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#81A2BE</string>
+					<string>#FAD07A</string>
 				</dict>
 			</dict>
 			<dict>
@@ -126,9 +118,9 @@
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
-					<string></string>
+					<string>bold</string>
 					<key>foreground</key>
-					<string>#B294BB</string>
+					<string>#9D90DF</string>
 				</dict>
 			</dict>
 			<dict>
@@ -138,12 +130,8 @@
 				<string>invalid</string>
 				<key>settings</key>
 				<dict>
-					<key>background</key>
-					<string>#DF5F5F</string>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#822021</string>
+					<string>#FF4C4A</string>
 				</dict>
 			</dict>
 			<dict>
@@ -153,10 +141,8 @@
 				<string>meta.separator</string>
 				<key>settings</key>
 				<dict>
-					<key>background</key>
-					<string>#82A3BF</string>
 					<key>foreground</key>
-					<string>#224D70</string>
+					<string>#CF6A4C</string>
 				</dict>
 			</dict>
 			<dict>
@@ -166,56 +152,54 @@
 				<string>invalid.deprecated</string>
 				<key>settings</key>
 				<dict>
-					<key>background</key>
-					<string>#B798BF</string>
-					<key>fontStyle</key>
-					<string></string>
 					<key>foreground</key>
-					<string>#62436A</string>
+					<string>#FF4C4A</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>codex-enhanced-markup-and-diff</string>
+				<string>markup-heading-bold-changed-diff</string>
 				<key>scope</key>
 				<string>markup.heading, markup.bold, markup.changed, markup.inserted.diff, markup.deleted.diff</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
 					<key>foreground</key>
-					<string>#DE935F</string>
+					<string>#000000</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>codex-enhanced-json-yaml-keys</string>
+				<string>json-yaml-keys</string>
 				<key>scope</key>
 				<string>support.type.property-name.json, string.unquoted.plain.out.yaml, entity.name.tag.yaml</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#81A2BE</string>
+					<string>#C6B6EE</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>codex-enhanced-shell-and-cli</string>
+				<string>shell-and-cli</string>
 				<key>scope</key>
 				<string>support.function.builtin.shell, variable.other.normal.shell, string.interpolated.shell</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#B5BD68</string>
+					<string>#EEFFEE</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>codex-enhanced-diagnostics</string>
+				<string>diagnostics</string>
 				<key>scope</key>
 				<string>invalid.illegal, markup.deleted, message.error, markup.warning</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#CC6666</string>
+					<string>#FF4C4A</string>
 				</dict>
 			</dict>
 			<dict>
@@ -226,7 +210,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#00200f</string>
+					<string>#012E12</string>
 				</dict>
 			</dict>
 			<dict>
@@ -237,11 +221,11 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#1b0100</string>
+					<string>#340A01</string>
 				</dict>
 			</dict>
 		</array>
 		<key>uuid</key>
-		<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
+		<string>6383F833A2814E78A61F80B26245E747</string>
 	</dict>
 </plist>

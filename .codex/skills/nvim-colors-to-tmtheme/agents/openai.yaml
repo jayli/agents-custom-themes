@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nvim Colors to tmTheme"
+  short_description: "Convert nvim-colors colorschemes to Codex tmTheme files"
+  default_prompt: "Use $nvim-colors-to-tmtheme to convert a colorscheme from /Users/bachi/jaylli/nvim-colors/colors into a .tmTheme."

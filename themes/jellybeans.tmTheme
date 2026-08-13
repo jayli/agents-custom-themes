@@ -3,13 +3,13 @@
 <plist version="1.0">
 	<dict>
 		<key>comment</key>
-		<string>Coffee converted from coffee</string>
+		<string>Jellybeans converted from jellybeans</string>
 		<key>name</key>
-		<string>Coffee</string>
+		<string>Jellybeans</string>
 		<key>author</key>
 		<string>nvim-colors</string>
 		<key>semanticClass</key>
-		<string>theme.dark.coffee</string>
+		<string>theme.dark.jellybeans</string>
 		<key>colorSpace</key>
 		<string>sRGB</string>
 		<key>settings</key>
@@ -18,17 +18,17 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#151515</string>
+					<string>#101010</string>
 					<key>caret</key>
 					<string>#E8E8D3</string>
 					<key>foreground</key>
 					<string>#E8E8D3</string>
 					<key>invisibles</key>
-					<string>#61616D</string>
+					<string>#606060</string>
 					<key>lineHighlight</key>
-					<string>#222222</string>
+					<string>#1C1C1C</string>
 					<key>selection</key>
-					<string>#444444</string>
+					<string>#404040</string>
 				</dict>
 			</dict>
 			<dict>
@@ -52,7 +52,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFA96</string>
+					<string>#8FBFDC</string>
 				</dict>
 			</dict>
 			<dict>
@@ -85,7 +85,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#C6FEEB</string>
+					<string>#FFB964</string>
 				</dict>
 			</dict>
 			<dict>
@@ -117,10 +117,8 @@
 				<string>keyword, storage, storage.type</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
 					<key>foreground</key>
-					<string>#9D90DF</string>
+					<string>#8197BF</string>
 				</dict>
 			</dict>
 			<dict>
@@ -131,7 +129,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FF4C4A</string>
+					<string>#FFC0B9</string>
 				</dict>
 			</dict>
 			<dict>
@@ -142,7 +140,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#CF6A4C</string>
+					<string>#668799</string>
 				</dict>
 			</dict>
 			<dict>
@@ -153,7 +151,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FF4C4A</string>
+					<string>#FCE094</string>
 				</dict>
 			</dict>
 			<dict>
@@ -166,7 +164,7 @@
 					<key>fontStyle</key>
 					<string>bold</string>
 					<key>foreground</key>
-					<string>#000000</string>
+					<string>#70B950</string>
 				</dict>
 			</dict>
 			<dict>
@@ -188,7 +186,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#EEFFEE</string>
+					<string>#799D6A</string>
 				</dict>
 			</dict>
 			<dict>
@@ -199,7 +197,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FF4C4A</string>
+					<string>#FFC0B9</string>
 				</dict>
 			</dict>
 			<dict>
@@ -226,6 +224,6 @@
 			</dict>
 		</array>
 		<key>uuid</key>
-		<string>6383F833A2814E78A61F80B26245E747</string>
+		<string>2699F5E6FDAD4B3CB8F638550977718A</string>
 	</dict>
 </plist>

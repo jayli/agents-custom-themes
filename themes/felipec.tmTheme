@@ -3,13 +3,13 @@
 <plist version="1.0">
 	<dict>
 		<key>comment</key>
-		<string>Coffee converted from coffee</string>
+		<string>Felipec converted from felipec</string>
 		<key>name</key>
-		<string>Coffee</string>
+		<string>Felipec</string>
 		<key>author</key>
 		<string>nvim-colors</string>
 		<key>semanticClass</key>
-		<string>theme.dark.coffee</string>
+		<string>theme.dark.felipec</string>
 		<key>colorSpace</key>
 		<string>sRGB</string>
 		<key>settings</key>
@@ -18,17 +18,17 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#151515</string>
+					<string>#1D1C21</string>
 					<key>caret</key>
-					<string>#E8E8D3</string>
+					<string>#DEDDE4</string>
 					<key>foreground</key>
-					<string>#E8E8D3</string>
+					<string>#DEDDE4</string>
 					<key>invisibles</key>
-					<string>#61616D</string>
+					<string>#695205</string>
 					<key>lineHighlight</key>
-					<string>#222222</string>
+					<string>#111111</string>
 					<key>selection</key>
-					<string>#444444</string>
+					<string>#333333</string>
 				</dict>
 			</dict>
 			<dict>
@@ -41,7 +41,7 @@
 					<key>fontStyle</key>
 					<string>italic</string>
 					<key>foreground</key>
-					<string>#888888</string>
+					<string>#9E9DA4</string>
 				</dict>
 			</dict>
 			<dict>
@@ -52,7 +52,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFA96</string>
+					<string>#E0E2EA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -63,7 +63,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#C6B6EE</string>
+					<string>#D991D2</string>
 				</dict>
 			</dict>
 			<dict>
@@ -74,7 +74,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#CF6A4C</string>
+					<string>#F09080</string>
 				</dict>
 			</dict>
 			<dict>
@@ -85,7 +85,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#C6FEEB</string>
+					<string>#FDDB7C</string>
 				</dict>
 			</dict>
 			<dict>
@@ -95,8 +95,10 @@
 				<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
 					<key>foreground</key>
-					<string>#99AD6A</string>
+					<string>#93E4A4</string>
 				</dict>
 			</dict>
 			<dict>
@@ -106,8 +108,10 @@
 				<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
 					<key>foreground</key>
-					<string>#FAD07A</string>
+					<string>#C4DA7D</string>
 				</dict>
 			</dict>
 			<dict>
@@ -117,10 +121,8 @@
 				<string>keyword, storage, storage.type</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
 					<key>foreground</key>
-					<string>#9D90DF</string>
+					<string>#65E7D1</string>
 				</dict>
 			</dict>
 			<dict>
@@ -130,8 +132,10 @@
 				<string>invalid</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
 					<key>foreground</key>
-					<string>#FF4C4A</string>
+					<string>#F09080</string>
 				</dict>
 			</dict>
 			<dict>
@@ -142,7 +146,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#CF6A4C</string>
+					<string>#E0E2EA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -152,8 +156,10 @@
 				<string>invalid.deprecated</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
 					<key>foreground</key>
-					<string>#FF4C4A</string>
+					<string>#F09080</string>
 				</dict>
 			</dict>
 			<dict>
@@ -163,10 +169,8 @@
 				<string>markup.heading, markup.bold, markup.changed, markup.inserted.diff, markup.deleted.diff</string>
 				<key>settings</key>
 				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
 					<key>foreground</key>
-					<string>#000000</string>
+					<string>#90AAFA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -177,7 +181,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#C6B6EE</string>
+					<string>#D991D2</string>
 				</dict>
 			</dict>
 			<dict>
@@ -187,8 +191,10 @@
 				<string>support.function.builtin.shell, variable.other.normal.shell, string.interpolated.shell</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
 					<key>foreground</key>
-					<string>#EEFFEE</string>
+					<string>#FFBB7B</string>
 				</dict>
 			</dict>
 			<dict>
@@ -198,8 +204,10 @@
 				<string>invalid.illegal, markup.deleted, message.error, markup.warning</string>
 				<key>settings</key>
 				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
 					<key>foreground</key>
-					<string>#FF4C4A</string>
+					<string>#F09080</string>
 				</dict>
 			</dict>
 			<dict>
@@ -210,7 +218,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#19291F</string>
+					<string>#191F1D</string>
 				</dict>
 			</dict>
 			<dict>
@@ -221,11 +229,11 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#381D19</string>
+					<string>#2B121D</string>
 				</dict>
 			</dict>
 		</array>
 		<key>uuid</key>
-		<string>6383F833A2814E78A61F80B26245E747</string>
+		<string>C6D48D81CF9A4C9C834538FD8B0125EC</string>
 	</dict>
 </plist>

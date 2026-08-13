@@ -218,7 +218,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#191F1D</string>
+					<string>#15312E</string>
 				</dict>
 			</dict>
 			<dict>
@@ -229,7 +229,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#2B121D</string>
+					<string>#411A17</string>
 				</dict>
 			</dict>
 		</array>

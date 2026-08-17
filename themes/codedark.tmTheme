@@ -245,7 +245,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#102D1A</string>
+					<string>#203629</string>
 				</dict>
 			</dict>
 			<dict>
@@ -256,7 +256,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#35191B</string>
+					<string>#4A221E</string>
 				</dict>
 			</dict>
 		</array>

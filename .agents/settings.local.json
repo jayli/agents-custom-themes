@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -type f -not -path './.git/*' -not -path './.codex/*' -not -path './qoder/*' | head -100)",
+      "Bash(git:*)",
+      "Bash(cat ~/.qoder/settings.json 2>/dev/null || echo '不存在')",
+      "Read(//Users/bachi/.qoder/**)",
+      "Bash(echo '--- ~/.agents/skills ---'; ls ~/.agents/skills 2>/dev/null || echo '不存在'; echo '--- ~/.qoder/skills ---'; ls ~/.qoder/skills 2>/dev/null || echo '不存在'; echo '--- ~/.claude/skills ---'; ls ~/.claude/skills 2>/dev/null || echo '不存在'; echo '--- 项目 .agents/skills ---'; ls .agents/skills 2>/dev/null || echo '不存在')",
+      "Read(//Users/bachi/.agents/skills/**)",
+      "Bash(ls -la ~/.agents 2>/dev/null || echo '~/.agents 不存在'; echo '---'; ls ~/.qoder/plugins 2>/dev/null || echo '无 plugins 目录')",
+      "Read(//Users/bachi/.agents/**)",
+      "Bash(cat ~/.agents/.skill-lock.json | python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d['skills'].get\\('superpowers'\\) or {k:v for k,v in d['skills'].items\\(\\) if 'superpower' in k.lower\\(\\)}, indent=2, ensure_ascii=False\\)\\)\")",
+      "Bash(ls -la ~/.agents/skills/superpowers/ && head -20 ~/.agents/skills/superpowers/using-superpowers/SKILL.md 2>/dev/null)",
+      "Bash(git clone --depth 1 --quiet https://github.com/obra/superpowers.git /tmp/superpowers-latest && ls /tmp/superpowers-latest/skills | sort && git -C /tmp/superpowers-latest log -1 --format='%h %ad %s' --date=short)",
+      "Bash(diff -rq ~/.agents/skills/superpowers /tmp/superpowers-latest/skills | head -40)",
+      "Bash(rsync -a --delete /tmp/superpowers-latest/skills/ ~/.agents/skills/superpowers/ && diff -rq ~/.agents/skills/superpowers /tmp/superpowers-latest/skills && echo '已完全同步' && rm -rf /tmp/superpowers-latest)",
+      "Bash(find /Users/bachi/jaylli/agents-custom-themes/.agents /Users/bachi/jaylli/agents-custom-themes/.codex -type f | head -50)",
+      "Bash(ls ~/.qoder 2>/dev/null; find ~ -maxdepth 4 -name \"settings.schema.json\" 2>/dev/null | head -5)",
+      "Bash(ls -la ~/.qoder/bin/qodercli; find ~/.qoder -name \"settings.schema.json\" 2>/dev/null | head -3)",
+      "Bash(strings ~/.qoder/bin/qodercli/qodercli-1.1.26 | grep -i -A2 -B2 \"customThemes\" | head -40)",
+      "Bash(strings ~/.qoder/bin/qodercli/qodercli-1.1.26 | grep -o 'CustomTheme[^\"]*' | head -5; strings ~/.qoder/bin/qodercli/qodercli-1.1.26 | grep -c 'ref:\"CustomTheme\"')",
+      "Bash(strings ~/.qoder/bin/qodercli/qodercli-1.1.26 | grep -o '[^;]\\\\{0,400\\\\}fileThemes[^;]\\\\{0,400\\\\}' | head -10)",
+      "Bash(strings ~/.qoder/bin/qodercli/qodercli-1.1.26 | grep -E '\\(themes/|themes\"\\)' | grep -iv customThemes | head -20)",
+      "Bash(grep -aoP '.{0,600}fileThemes.{0,600}' ~/.qoder/bin/qodercli/qodercli-1.1.26 | head -6)",
+      "Bash(~/.qoder/bin/ripgrep -aoP --pcre2 '.{0,500}fileThemes.{0,500}' ~/.qoder/bin/qodercli/qodercli-1.1.26 2>/dev/null | head -8 || ~/.qoder/bin/ripgrep --help | head -3)",
+      "Bash(node:*)"
+    ]
+  }
+}

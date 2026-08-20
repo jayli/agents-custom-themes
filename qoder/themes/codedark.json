@@ -1,0 +1,54 @@
+{
+  "type": "custom",
+  "name": "Code Dark",
+  "Background": "#1E1E1E",
+  "Foreground": "#EEEEEB",
+  "Gray": "#808080",
+  "DarkGray": "#5A5A5A",
+  "LightBlue": "#9CDCFE",
+  "AccentBlue": "#569CD6",
+  "AccentPurple": "#C586C0",
+  "AccentCyan": "#36ACFD",
+  "AccentGreen": "#6A9955",
+  "AccentYellow": "#DCDCAA",
+  "AccentRed": "#F44747",
+  "Comment": "#6A9955",
+  "DiffAdded": "#203629",
+  "DiffRemoved": "#4A221E",
+  "GradientColors": [
+    "#569CD6",
+    "#C586C0",
+    "#36ACFD"
+  ],
+  "text": {
+    "primary": "#EEEEEB",
+    "secondary": "#95958F",
+    "link": "#36ACFD",
+    "accent": "#DCDCAA"
+  },
+  "background": {
+    "primary": "#1E1E1E",
+    "diff": {
+      "added": "#203629",
+      "removed": "#4A221E"
+    }
+  },
+  "border": {
+    "default": "#5A5A5A",
+    "focused": "#569CD6"
+  },
+  "ui": {
+    "comment": "#6A9955",
+    "symbol": "#9CDCFE",
+    "gradient": [
+      "#569CD6",
+      "#C586C0",
+      "#36ACFD"
+    ]
+  },
+  "status": {
+    "error": "#F44747",
+    "success": "#6A9955",
+    "warning": "#CE9178"
+  }
+}

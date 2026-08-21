@@ -22,7 +22,7 @@
   ],
   "text": {
     "primary": "#EEEEEB",
-    "secondary": "#95958F",
+    "secondary": "#959590",
     "link": "#36ACFD",
     "accent": "#DCDCAA"
   },
@@ -39,7 +39,7 @@
   },
   "ui": {
     "comment": "#6A9955",
-    "symbol": "#9CDCFE",
+    "symbol": "#9cdcfe",
     "gradient": [
       "#569CD6",
       "#C586C0",
